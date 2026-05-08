@@ -1,0 +1,8 @@
+/bin/
+/target/
+imgui.ini
+level.txt
+*.log
+.classpath
+.project
+.settings/
