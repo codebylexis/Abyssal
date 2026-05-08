@@ -85,20 +85,20 @@ game viewport to enter runtime mode; press Stop to return to the editor.
 
 ```
 src/
-  core/           -- engine kernel: window, game loop, scene, input, assets
-  components/     -- behaviors: player, sprites, animation, physics colliders
-  graphics/       -- rendering: batch renderer, framebuffers, debug drawing
-  physics2d/      -- JBox2D wrapper and collider components
-  editor/         -- Dear ImGui panels and gizmo tools
-  scenes/         -- scene initializers for editor and gameplay modes
-  observers/      -- lightweight event bus
-  util/           -- asset cache, math helpers, settings
+  core/           - engine kernel: window, game loop, scene, input, assets
+  components/     - behaviors: player, sprites, animation, physics colliders
+  graphics/       - rendering: batch renderer, framebuffers, debug drawing
+  physics2d/      - JBox2D wrapper and collider components
+  editor/         - Dear ImGui panels and gizmo tools
+  scenes/         - scene initializers for editor and gameplay modes
+  observers/      - lightweight event bus
+  util/           - asset cache, math helpers, settings
 res/
-  shaders/        -- GLSL vertex and fragment programs
-  textures/       -- sprite atlases and tilesets
-  sounds/         -- OGG audio files
-  fonts/          -- TTF fonts used by the editor
-pom.xml           -- Maven build; all dependencies declared here
+  shaders/        - GLSL vertex and fragment programs
+  textures/       - sprite atlases and tilesets
+  sounds/         - OGG audio files
+  fonts/          - TTF fonts used by the editor
+pom.xml           - Maven build; all dependencies declared here
 ```
 
 ## Dependencies
