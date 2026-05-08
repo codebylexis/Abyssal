@@ -55,8 +55,8 @@ All library dependencies are downloaded automatically by Maven on first build.
 ## Build and run
 
 ```bash
-git clone <repo-url>
-cd Abyssal-main
+git clone https://github.com/codebylexis/Abyssal.git
+cd Abyssal
 mvn compile exec:exec
 ```
 
